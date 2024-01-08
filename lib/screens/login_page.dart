@@ -85,7 +85,7 @@ class _LoginPageState extends State<LoginPage> {
                   decoration: InputDecoration(fillColor: Colors.teal[100],
                     labelText: 'Phone Number',
                   ),
-                  keyboardType: TextInputType.number,
+                  keyboardType: TextInputType.text,
                   textInputAction: TextInputAction.next,
                   validator: (uname) {
                     if (uname!.isEmpty || !uname.contains('')) {
